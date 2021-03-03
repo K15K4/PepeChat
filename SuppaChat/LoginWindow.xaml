@@ -1,0 +1,21 @@
+﻿<Window x:Class="SuppaChat.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SuppaChat"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="600" Width="746">
+    <Grid>
+        <TextBox x:Name="LogBox" HorizontalAlignment="Left" Height="25" Margin="178,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="390"/>
+        <TextBox x:Name="PassBox" HorizontalAlignment="Left" Height="25" Margin="178,265,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="390"/>
+        <Button x:Name="LoginButton"  Content="Login" Margin="178,305,0,0" FontFamily="Verdana" Foreground="Black" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190">
+        </Button>
+        <Image  x:Name="ShowPepe" Source="Resources/TripleMonkasSleep.png" HorizontalAlignment="Left" Height="25" Margin="573,265,0,0" VerticalAlignment="Top" Width="27"/>
+        <Button x:Name="ExitButton" Content="Exit" Margin="379,305,0,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="189" Click="ExitButton_Click" />
+        <Button x:Name="RegButton" Content="Registration" Margin="178,345,0,0" Height="25" VerticalAlignment="Top"  HorizontalAlignment="Left" Width="390" Click="RegButton_Click"/>
+        <Label x:Name="LogLabel" Content="Login" HorizontalAlignment="Left" Margin="178,180,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="PassLabel" Content="Password" HorizontalAlignment="Left" Margin="178,235,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

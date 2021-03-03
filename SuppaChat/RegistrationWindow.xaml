@@ -1,0 +1,25 @@
+﻿<Window x:Class="SuppaChat.RegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SuppaChat"
+        mc:Ignorable="d"
+        Title="RegistrationWindow" Height="600" Width="746">
+    <Grid>
+        <ComboBox x:Name ="GroupList" HorizontalAlignment="Left" Margin="178,120,0,0" VerticalAlignment="Top" Width="390"/>
+        <TextBox x:Name="LogBox" HorizontalAlignment="Left" Height="25" Margin="178,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="390" UndoLimit="30"/>
+        <TextBox x:Name="NickBox" HorizontalAlignment="Left" Height="25" Margin="178,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="390" UndoLimit="15"/>
+        <TextBox x:Name="PassBox1" HorizontalAlignment="Left" Height="25" Margin="178,270,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="390" UndoLimit="30"/>
+        <TextBox x:Name="PassBox2" HorizontalAlignment="Left" Height="25" Margin="178,322,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="390" UndoLimit="30"/>
+        <Label x:Name="GroupLabel" Content="Choose your group:" HorizontalAlignment="Left" Margin="178,95,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LogLabel" Content="Login" HorizontalAlignment="Left" Margin="178,144,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="NickLabel" Content="Nickname:" HorizontalAlignment="Left" Margin="178,194,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="PassLabel1" Content="Password:" HorizontalAlignment="Left" Margin="178,245,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="PassLabel2" Content="Repeat password:" HorizontalAlignment="Left" Margin="178,296,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="RegButton"  Content="Registration" Margin="178,352,0,0" FontFamily="Verdana" Foreground="Black" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190"/>
+        <Button x:Name="BackButton" Content="Back" Margin="379,352,0,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="189" Click="BackButton_Click"/>
+        <Image  x:Name="ShowPepe1" Source="Resources/TripleMonkasSleep.png" HorizontalAlignment="Left" Height="25" Margin="586,322,0,0" VerticalAlignment="Top" Width="27"/>
+        <Image  x:Name="ShowPepe2" Source="Resources/TripleMonkasSleep.png" HorizontalAlignment="Left" Height="25" Margin="586,270,0,0" VerticalAlignment="Top" Width="27"/>
+    </Grid>
+</Window>
