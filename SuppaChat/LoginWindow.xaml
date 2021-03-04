@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SuppaChat"
         mc:Ignorable="d"
-        Title="LoginWindow" Height="600" Width="746">
+        Title="PepeChat" Height="600" Width="746">
     <Grid>
         <TextBox x:Name="LogBox" HorizontalAlignment="Left" Height="25" Margin="178,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="390"/>
         <TextBox x:Name="PassBox" HorizontalAlignment="Left" Height="25" Margin="178,265,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="390"/>

@@ -5,28 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SuppaChat"
         mc:Ignorable="d"
-        Title="ChatWindow" Height="600" Width="746">
+        Title="PepeChat" Height="600" Width="746">
     <Grid>
-        <RichTextBox HorizontalAlignment="Left" Height="54" Margin="10,506,0,0" VerticalAlignment="Top" Width="564">
+        <RichTextBox HorizontalAlignment="Left" Height="54" Margin="10,506,0,0" VerticalAlignment="Top" Width="564" TextChanged="RichTextBox_TextChanged">
             <FlowDocument>
                 <Paragraph>
                     <Run Text=""/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <RichTextBox HorizontalAlignment="Left" Height="480" Margin="579,80,0,0" VerticalAlignment="Top" Width="150">
+        <RichTextBox HorizontalAlignment="Left" Height="500" Margin="579,60,0,0" VerticalAlignment="Top" Width="150">
             <FlowDocument>
                 <Paragraph>
-                    <Run Text="RichTextBox"/>
+                    <Run Text=""/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <RichTextBox HorizontalAlignment="Left" Height="420" Margin="10,81,0,0" VerticalAlignment="Top" Width="564">
+        <RichTextBox HorizontalAlignment="Left" Height="441" Margin="10,60,0,0" VerticalAlignment="Top" Width="564">
             <FlowDocument>
                 <Paragraph>
-                    <Run Text="RichTextBox"/>
+                    <Run Text=""/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="603,10,0,0" VerticalAlignment="Top" Width="126" Height="45"/>
+        <Button Content="Logout" HorizontalAlignment="Left" Margin="472,10,0,0" VerticalAlignment="Top" Width="126" Height="45"/>
+        <Button Content="Settings" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="126" Height="45"/>
     </Grid>
 </Window>
