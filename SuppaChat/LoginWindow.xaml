@@ -9,7 +9,7 @@
     <Grid>
         <TextBox x:Name="LogBox" HorizontalAlignment="Left" Height="25" Margin="178,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="390"/>
         <TextBox x:Name="PassBox" HorizontalAlignment="Left" Height="25" Margin="178,265,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="390"/>
-        <Button x:Name="LoginButton"  Content="Login" Margin="178,305,0,0" FontFamily="Verdana" Foreground="Black" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190">
+        <Button x:Name="LoginButton"  Content="Login" Margin="178,305,0,0" FontFamily="Verdana" Foreground="Black" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Click="LoginButton_Click">
         </Button>
         <Image  x:Name="ShowPepe" Source="Resources/TripleMonkasSleep.png" HorizontalAlignment="Left" Height="25" Margin="573,265,0,0" VerticalAlignment="Top" Width="27"/>
         <Button x:Name="ExitButton" Content="Exit" Margin="379,305,0,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="189" Click="ExitButton_Click" />

@@ -15,28 +15,15 @@ using System.Windows.Shapes;
 namespace SuppaChat
 {
     /// <summary>
-    /// Логика взаимодействия для ChatWindow.xaml
+    /// Логика взаимодействия для SettingsWindow.xaml
     /// </summary>
-    public partial class ChatWindow : Window
+    public partial class SettingsWindow : Window
     {
-        public ChatWindow()
+        public SettingsWindow()
         {
             InitializeComponent();
             this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
             Icon = new BitmapImage(new Uri("pack://application:,,,/Resources/4.png"));
         }
-
-        private void RichTextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void SettingsButton_Click(object sender, RoutedEventArgs e)
-        {
-            SettingsWindow window = new SettingsWindow();
-            this.Hide();
-            window.Show();
-        }
     }
 }
-//Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;

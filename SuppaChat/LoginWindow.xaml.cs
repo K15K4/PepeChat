@@ -49,5 +49,12 @@ namespace SuppaChat
         {
             System.Windows.Application.Current.Shutdown();
         }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            ChatWindow window = new ChatWindow();
+            this.Hide();
+            window.Show();
+        }
     }
 }
