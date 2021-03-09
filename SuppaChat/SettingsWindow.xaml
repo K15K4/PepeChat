@@ -6,41 +6,14 @@
         xmlns:local="clr-namespace:SuppaChat"
         mc:Ignorable="d"
         Title="SettingsWindow" Height="600" Width="746">
-    <Grid>
-        <TabControl x:Name="products" Margin="100,60,0,0.4" HorizontalContentAlignment="Left" HorizontalAlignment="Left" TabStripPlacement="Left">
-            
-            <TabItem x:Name="Tab">
-                <TabItem.Header>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Margin="3">MainSettings</TextBlock>
-                    </StackPanel>
-                </TabItem.Header>
-                <TabItem.Content>
-                    <StackPanel>
-
-                    </StackPanel>
-                </TabItem.Content>
-            </TabItem>
-
-            <TabItem x:Name="zhopa">
-                <TabItem.Header>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Margin="3">Avatar</TextBlock>
-                    </StackPanel>
-                </TabItem.Header>
-                <TabItem.Content>
-                    <StackPanel>
-
-                    </StackPanel>
-                </TabItem.Content>
-            </TabItem>
-            <TabItem x:Name="tabletsTab">
-                <TabItem.Header>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Margin="3">Themes</TextBlock>
-                    </StackPanel>
-                </TabItem.Header>
-            </TabItem>
-        </TabControl>
+    <Grid Grid.Row="2">
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="#252C32" Offset="0"></GradientStop>
+                    
+                <GradientStop Color="#1D1E20" Offset="2"></GradientStop>
+                
+            </LinearGradientBrush>
+        </Grid.Background>
     </Grid>
 </Window>

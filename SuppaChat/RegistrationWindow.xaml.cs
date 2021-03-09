@@ -55,5 +55,10 @@ namespace SuppaChat
             this.Hide();
             window.Show();
         }
+
+        private void RegButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

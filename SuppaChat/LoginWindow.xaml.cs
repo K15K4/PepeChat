@@ -22,7 +22,8 @@ namespace SuppaChat
         public LoginWindow()
         {
             InitializeComponent();
-            this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+            //this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+
             Icon = new BitmapImage(new Uri("pack://application:,,,/Resources/4.png"));
             ShowPepe.MouseUp += new MouseButtonEventHandler(ShowPepe_MouseUp);
             ShowPepe.MouseDown += new MouseButtonEventHandler(ShowPepe_MouseDown);
@@ -31,11 +32,17 @@ namespace SuppaChat
         private void ShowPepe_MouseDown(object sender, MouseButtonEventArgs e)
         {
             ShowPepe.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/TripleMonkas.png"));
+            PassBox1.Text = PassBox.Password;
+            PassBox.Visibility = Visibility.Collapsed;
+            PassBox1.Visibility = Visibility.Visible;
         }
 
         private void ShowPepe_MouseUp(object sender, MouseButtonEventArgs e)
         {
             ShowPepe.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/TripleMonkasSleep.png"));
+            PassBox.Password = PassBox1.Text;
+            PassBox1.Visibility = Visibility.Collapsed;
+            PassBox.Visibility = Visibility.Visible;
         }
 
         private void RegButton_Click(object sender, RoutedEventArgs e)

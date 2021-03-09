@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SuppaChat"
         mc:Ignorable="d"
+        WindowState="Maximized"
         Title="PepeChat" Height="600" Width="746">
     <Grid>
         <RichTextBox x:Name="SendBox" HorizontalAlignment="Left" Height="54" Margin="10,506,0,0" VerticalAlignment="Top" Width="564" TextChanged="RichTextBox_TextChanged">
