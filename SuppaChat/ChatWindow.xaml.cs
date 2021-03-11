@@ -42,6 +42,13 @@ namespace SuppaChat
         {
             System.Windows.Application.Current.Shutdown();
         }
+
+        private void LogoutButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.Show();
+        }
     }
 }
 //Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
