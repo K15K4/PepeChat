@@ -6,14 +6,17 @@
         xmlns:local="clr-namespace:SuppaChat"
         mc:Ignorable="d"
         Title="SettingsWindow" Height="600" Width="746">
-    <Grid Grid.Row="2">
-        <Grid.Background>
-            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                <GradientStop Color="#252C32" Offset="0"></GradientStop>
-                    
-                <GradientStop Color="#1D1E20" Offset="2"></GradientStop>
-                
-            </LinearGradientBrush>
-        </Grid.Background>
+    <Grid Background="#dff7f0">
+        <Border  MinWidth="400" Margin="15"  Padding="30"  CornerRadius="20" Background="#adf7e1">
+            <StackPanel>
+                <TabControl Background="#6ffcd2" TabStripPlacement="Left">
+                    <TabItem Name="zhopa" Header="zhopa" Background="#6ffcd2">
+                        <Button x:Name="LoginButton" HorizontalAlignment="Left" Content="Login" Width="218" />
+                        
+                    </TabItem>
+                    <TabItem Name="g" Header="fnjf"/>
+                </TabControl>
+            </StackPanel>
+        </Border>
     </Grid>
 </Window>

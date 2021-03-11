@@ -27,8 +27,9 @@ namespace SuppaChat
             Icon = new BitmapImage(new Uri("pack://application:,,,/Resources/4.png"));
             ShowPepe.MouseUp += new MouseButtonEventHandler(ShowPepe_MouseUp);
             ShowPepe.MouseDown += new MouseButtonEventHandler(ShowPepe_MouseDown);
+            
         }
-
+       
         private void ShowPepe_MouseDown(object sender, MouseButtonEventArgs e)
         {
             ShowPepe.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/TripleMonkas.png"));
@@ -63,5 +64,11 @@ namespace SuppaChat
             this.Hide();
             window.Show();
         }
+
+        private void PepeBlock_MouseEnter(object sender, MouseEventArgs e)
+        {
+            PepeLove.Visibility = Visibility.Visible;
+        }
+      
     }
 }

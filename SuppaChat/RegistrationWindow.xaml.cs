@@ -33,20 +33,32 @@ namespace SuppaChat
         private void ShowPepe1_MouseUp(object sender, MouseButtonEventArgs e)
         {
             ShowPepe1.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/TripleMonkasSleep.png"));
+            PassBox1.Password = PassBox1_1.Text;
+            PassBox1_1.Visibility = Visibility.Collapsed;
+            PassBox1.Visibility = Visibility.Visible;
         }
 
         private void ShowPepe1_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            ShowPepe1.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/TripleMonkas.png")); 
+            ShowPepe1.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/TripleMonkas.png"));
+            PassBox1_1.Text = PassBox1.Password;
+            PassBox1.Visibility = Visibility.Collapsed;
+            PassBox1_1.Visibility = Visibility.Visible;
         }
         private void ShowPepe2_MouseUp(object sender, MouseButtonEventArgs e)
         {
             ShowPepe2.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/TripleMonkasSleep.png"));
+            PassBox2.Password = PassBox2_1.Text;
+            PassBox2_1.Visibility = Visibility.Collapsed;
+            PassBox2.Visibility = Visibility.Visible;
         }
 
         private void ShowPepe2_MouseDown(object sender, MouseButtonEventArgs e)
         {
             ShowPepe2.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/TripleMonkas.png"));
+            PassBox2_1.Text = PassBox2.Password;
+            PassBox2.Visibility = Visibility.Collapsed;
+            PassBox2_1.Visibility = Visibility.Visible;
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
