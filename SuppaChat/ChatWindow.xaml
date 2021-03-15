@@ -6,39 +6,8 @@
         xmlns:local="clr-namespace:SuppaChat"
         mc:Ignorable="d"
    
-        Title="PepeChat" MinHeight="600" MinWidth="750" d:DesignWidth="750" d:DesignHeight="600" MaxHeight="594" MaxWidth="738">
-    <Grid Background="#dff7f0" HorizontalAlignment="Center">
-        <Border MinWidth="746" Margin="0,0,-0.4,0" VerticalAlignment="Top" Padding="30" MaxWidth="500" CornerRadius="20" Grid.ColumnSpan="2" HorizontalAlignment="Center">
-            <StackPanel VerticalAlignment="Center">
-                <Grid Width="auto" Height="auto">
-                    <Button x:Name="ExitButton" Content="Exit" Width="130" HorizontalAlignment="Right" Click="ExitButton_Click"/>
-                    <Button x:Name="LogoutButton" Content="Logout" Width="130" Margin="270 0 0 0" Click="LogoutButton_Click"/>
-                    <Button x:Name="SettingsButton" Content="Settings" Width="130" HorizontalAlignment="Left" Click="SettingsButton_Click"/>
-                </Grid>
-                <Grid>
-                    <RichTextBox BorderThickness="1,1,1,1" Margin="0,10,135.6,-435" Background="#c5d1de" IsReadOnly="True" Foreground="Black">
-                        <FlowDocument>
-                            <Paragraph>
-                                <Run Text=""/>
-                            </Paragraph>
-                        </FlowDocument>
-                    </RichTextBox>
-                    <RichTextBox BorderThickness="1,1,1,1" Margin="552,10,-0.4,-486.4" Background="#c5d1de" IsReadOnly="True" Foreground="Black">
-                        <FlowDocument>
-                            <Paragraph>
-                                <Run Text=""/>
-                            </Paragraph>
-                        </FlowDocument>
-                    </RichTextBox>
-                    <RichTextBox BorderThickness="1,1,1,1" Margin="0,435,135.6,-486" Background="#c5d1de" Foreground="Black">
-                        <FlowDocument>
-                            <Paragraph>
-                                <Run Text=""/>
-                            </Paragraph>
-                        </FlowDocument>
-                    </RichTextBox>
-                </Grid>
-            </StackPanel>
-        </Border>
+        Title="PepeChat" MinHeight="600" MinWidth="750">
+    <Grid Background="#dff7f0">
+        
     </Grid>
 </Window>

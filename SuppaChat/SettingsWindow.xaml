@@ -9,24 +9,9 @@
         
         Title="SettingsWindow" Height="600" Width="746">
     <Grid Background="#dff7f0">
-        <Border  MinWidth="400" Margin="15"  Padding="30"  CornerRadius="20" >
+        <Border MinWidth="400" Margin="15" VerticalAlignment="Center" Padding="30" MaxWidth="500" CornerRadius="20" Background="#6ffcd2" >
             <StackPanel>
-                <TabControl  TabStripPlacement="Left" Height="482" Margin="0,0,-0.2,0">
-                    <TabItem Name="MainTab" Header="Main Settings">
-                        <Grid>
-                            <Button x:Name="ApplyButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="311,61,0,0" Content="Apply" Width="218" Height="27" Opacity="0.8" />
-                            <TextBlock x:Name="NickBlock"  Text = "Change nickname" HorizontalAlignment="Left" FontSize="16" FontWeight="Bold" Margin="10,13,0,434"/>
-                            <TextBox x:Name="NickChangeBox" FontSize="15" Height="40" Margin="10,47,328.8,387" materialDesign:HintAssist.Hint="New nickname" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
-                            <Line X1="10" Y1="130" X2="530" Y2="130" Stroke="Black"/>
-                            <TextBlock x:Name="PassBlock" Text="Change password" HorizontalAlignment="Left" FontSize="16" FontWeight="Bold" Margin="10,150,0,289"/>
-                            <TextBox x:Name="OldPassBox" FontSize="15" materialDesign:HintAssist.Hint="Old password" Height="40" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="10,180,328.8,256"/>
-                            <TextBox x:Name="NewPassBox" FontSize="15" materialDesign:HintAssist.Hint="New password" Height="40" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="10,232,328.8,204"/>
-                            <TextBox x:Name="NewPassBox2" FontSize="15" materialDesign:HintAssist.Hint="Repeat new password" Height="40" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="10,278,328.8,158"/>
-                            <Button x:Name="ApplyButton2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="311,380,0,0" Content="Apply" Width="218" Height="27" Opacity="0.8"/>
-                        </Grid>
-                    </TabItem>
-                    <TabItem Name="AvaTab" Header="Avatar"/>
-                </TabControl>
+                
             </StackPanel>
         </Border>
     </Grid>
