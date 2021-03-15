@@ -8,10 +8,6 @@
    
         Title="PepeChat" MinHeight="600" MinWidth="750" d:DesignWidth="750" d:DesignHeight="600" MaxHeight="594" MaxWidth="738">
     <Grid Background="#dff7f0" HorizontalAlignment="Center">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="91*"/>
-            <ColumnDefinition Width="163*"/>
-        </Grid.ColumnDefinitions>
         <Border MinWidth="746" Margin="0,0,-0.4,0" VerticalAlignment="Top" Padding="30" MaxWidth="500" CornerRadius="20" Grid.ColumnSpan="2" HorizontalAlignment="Center">
             <StackPanel VerticalAlignment="Center">
                 <Grid Width="auto" Height="auto">

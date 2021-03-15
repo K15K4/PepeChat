@@ -17,6 +17,14 @@ namespace SuppaChat
     /// <summary>
     /// Логика взаимодействия для RegistrationWindow.xaml
     /// </summary>
+    /// 
+
+
+
+
+
+
+    //trim
     public partial class RegistrationWindow : Window
     {
         public RegistrationWindow()

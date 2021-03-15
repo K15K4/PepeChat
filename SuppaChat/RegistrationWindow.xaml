@@ -14,7 +14,7 @@
                     <ComboBoxItem Content="жопа"/>
                     <ComboBoxItem  Content="не жопа"/>
                 </ComboBox>
-                <TextBox x:Name="LogBox" materialDesign:HintAssist.Hint="Login" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <TextBox x:Name="LogBox" materialDesign:HintAssist.Hint="Login" ToolTip="" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
                 <TextBox x:Name="NickBox" materialDesign:HintAssist.Hint="Nickname" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
                 <Grid Margin="0 10 0 0">
                     <PasswordBox x:Name="PassBox1" materialDesign:HintAssist.Hint="Password" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" />
