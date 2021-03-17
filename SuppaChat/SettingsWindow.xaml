@@ -11,6 +11,7 @@
     <Grid Background="#dff7f0">
         <Border MinWidth="400" Margin="15" VerticalAlignment="Center" Padding="30" MaxWidth="500" CornerRadius="20" Background="#6ffcd2" >
             <StackPanel>
+                <TextBlock x:Name="SetBlock" Text = "Settings" HorizontalAlignment="Left" FontSize="30" FontWeight="Bold" Margin="0 10 0 0 " MouseEnter="PepeBlock_MouseEnter"/>
                 
             </StackPanel>
         </Border>
